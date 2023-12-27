@@ -25,18 +25,18 @@ export default async function Page() {
                       <div>
                         <div className="mb-2 flex items-center">
                           <div className="flex items-center gap-3">
-                            <Image
+                            {/* <Image
                               src={customer.image_url}
                               className="rounded-full"
                               alt={`${customer.name}'s profile picture`}
                               width={28}
                               height={28}
-                            />
+                            /> */}
                             <p>{customer.name}</p>
                           </div>
                         </div>
                         <p className="text-sm text-gray-500">
-                          {customer.email}
+                          {/* {customer.email} */}
                         </p>
                       </div>
                     </div>
@@ -78,18 +78,18 @@ export default async function Page() {
                     <tr key={customer.id} className="group">
                       <td className="whitespace-nowrap bg-white py-5 pl-4 pr-3 text-sm text-black group-first-of-type:rounded-md group-last-of-type:rounded-md sm:pl-6">
                         <div className="flex items-center gap-3">
-                          <Image
+                          {/* <Image
                             src={customer.image_url}
                             className="rounded-full"
                             alt={`${customer.name}'s profile picture`}
                             width={28}
                             height={28}
-                          />
+                          /> */}
                           <p>{customer.name}</p>
                         </div>
                       </td>
                       <td className="whitespace-nowrap bg-white px-4 py-5 text-sm">
-                        {customer.email}
+                        {/* {customer.email} */}
                       </td>
                       <td className="whitespace-nowrap bg-white px-4 py-5 text-sm"></td>
                       <td className="whitespace-nowrap bg-white px-4 py-5 text-sm"></td>
