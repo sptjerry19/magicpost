@@ -17,7 +17,7 @@ export default async function Page() {
       <h1 className={`${inter.className} mb-4 text-xl md:text-2xl`}>
         Invoices
       </h1>
-      <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-4 lg:grid-cols-8">
+      <div className="mt-6 grid grid-cols-1 gap-6 h-96">
         <Suspense fallback={<RevenueChartSkeleton />}>
           <RevenueChart />
         </Suspense>
